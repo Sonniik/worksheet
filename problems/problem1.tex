@@ -1,0 +1,22 @@
+\probsolskip{10pt}
+\probtask{%
+Mějme čtverec $ABCD$ o straně $a=5$ (znázorněn na obrázku). Vypočtěte obsah oranžového obrazce, kdy body $E$, $F$, $G$ a $H$ jsou středy stran čtverce $ABCD$.
+\ifhassolution\else\fullfig[width=0.25\textwidth,right][h]{problem1_task.pdf}\fi
+}
+\probsolution{%
+\ifhassolution\wrapfig[0.25\textwidth][][h]{problem1_task.pdf}\fi
+\noindent Povšimněme si, že obrazec, jehož obsah máme vypočítat, má všechny strany stejně dlouhé, je symetrický podle čtyř os souměrnosti a každé dvě jeho sousední strany svírají pravý úhel. Jedná se tedy o čtverec.
+
+Obsah čtverce vypočteme jako $S=a^2$, kde $a$ je délka jedné jeho strany. Pro výpočet obsahu oranžového obrazce tedy potřebujeme znát délku jedné jeho strany. Tu jednoduše vypočteme Pythagorovou větou jako $c=\sqrt{\(\frac{a}{2}\)^2+\(\frac{a}{2}\)^2}=\sqrt{2\(\frac{a}{2}\)^2}=\frac{a}{2}\sqrt{2}$, kde $a$ je délka strany zadaného čtverce a $c$ je délka strany oranžového obrazce. Obsah oranžového obrazce tedy vypočteme jako
+\eq{
+S=c^2=\(\frac{a}{2}\sqrt{2}\)^2=2\frac{a^2}{4}=\frac{a^2}{2}\,.
+}
+Po dosazení tedy dostáváme výsledek $S=\frac{5^2}{2}=\frac{25}{2}$.\\
+
+Ke stejnému výsledku lze dojít i alternativní metodou, kdy si povšimneme, že dvojice šedých trojúhelníků, které zbydou po \uv{vyříznutí} oranžového obrazce ze zadaného čtverce, tvoří dva čtverce o straně délky $b=\frac{a}{2}$. Pokud obsah těchto dvou čtverců $S\_{č}=2*b^2$ odečteme od obsahu zadaného čtverce $S\_z=a^2$, získáme obsah oranžového obrazce ze vztahu
+\eq{
+S=S\_z-S\_{č}=a^2-2b^2=a^2-2\(\frac{a}{2}\)^2=\frac{2a^2-a^2}{2}=\frac{2}a^2\,.
+}
+Po dosazení tedy opět dojdeme k výsledku $S=\frac{2}*5^2=\frac{25}{2}$
+}
+

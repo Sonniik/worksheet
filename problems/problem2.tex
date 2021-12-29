@@ -1,0 +1,37 @@
+\probsolskip{4cm}
+\probtask{%
+Vypočtěte obsah mezikruží kružnice opsané a vepsané čtverci o straně $a="10 cm"$.
+}
+\probsolution{%
+Obsah mezikruží $S\_m$ vypočteme jako rozdíl obsahu $S\_o$ kružnice opsané a obsahu $S\_v$ kružnice vepsané, tedy $S\_m=S\_o-S\_v$. Obsah kružnice vypočteme jako $S=\pi r^2$, tedy pro obě kružnice potřebujeme znát jejich poloměry.
+
+Poloměr kružnice opsané $r\_o$ tvoří polovina úhlopříčky čtverce. Úhlopříčku $u$ vypočteme pomocí Pythagorovy věty
+\eq[m]{
+u^2&=a^2+a^2\,,\\
+u&=\sqrt{2a^2}=a\sqrt{2}\,,\\
+r\_o&=\frac{a\sqrt{2}}{2}\,.
+}
+Z takto vyjádřeného poloměru kružnice opsané pak vypočteme její obsah jako
+\eq[m]{
+S\_o&=\pi\(\frac{a\sqrt{2}}{2}\)^2\,,\\
+S\_o&=\frac{a^2\pi}{2}\,.
+}
+
+Poloměr kružnice vepsané tvoří polovina strany čtverce, tedy $r\_v=\frac{a}{2}$. Její obsah tedy vypočteme jako
+\eq[m]{
+S\_v&=\pi\(\frac{a}{2}\)^2\,,\\
+S\_v&=\frac{a^2\pi}{4}\,.
+}
+
+Po dosazení do první rovnice dostáváme vztah pro obsah mezikruží
+\eq[m]{
+S\_m&=\frac{a^2\pi}{2}-\frac{a^2\pi}{4}\,,\\
+S\_m&=\frac{2a^2\pi-a^2\pi}{4}\,,\\
+S\_m&=\frac{a^2\pi}{4}\,.
+}
+
+Dosadíme číselné hodnoty a vypočteme obsah mezikruží
+\eq{
+S\_m="\frac{10^2\pi}{4} cm^2"="\frac{100\pi}{4} cm^2"="25\pi cm^2"\doteq"78.54 cm^2"\,.
+}
+}
