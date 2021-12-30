@@ -5,3 +5,7 @@
 - graphics -- obrázky
 - out -- output z pdflatex (včetně požadovaných dvou pdf)
 - problems -- zdrojové soubory úloh
+
+## Překlad
+- prerekvizity: pdflatex, make
+- kompilace: spustit make
